@@ -7,6 +7,10 @@ end
 
 band = ["Ali", "Marc"]
 
+puts band
+
 band.each do |musician|
-  puts musician
+  puts musician.upcase
 end
+
+puts band
